@@ -1,0 +1,17 @@
+20 15 19 5
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 T F 0 0 0 0 0 0 0 0 0 0 0 T 0 0 0 T 1
+1 F 0 0 T 0 T 0 0 0 F 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 F 0 0 0 0 0 0 T 0 0 0 0 0 1
+1 0 0 T 0 0 0 0 0 F 0 0 0 0 0 0 0 0 F 1
+1 0 0 0 0 F 0 T 0 0 T 0 0 0 F 0 0 T 0 0
+1 0 0 0 0 0 0 0 0 0 0 F 0 0 0 0 0 0 F 1
+1 0 0 F F F F F 0 T 0 0 0 F 0 0 F 0 0 1
+1 T 0 F F F F F 0 0 0 T 0 0 0 F T 0 0 1
+1 0 0 F F E F F 0 T 0 0 0 0 0 0 0 0 F 1
+1 0 0 F F F F F 0 0 0 F 0 0 0 0 0 0 0 1
+1 0 0 F F F F F 0 0 0 0 0 0 0 0 F F F 1
+1 T 0 0 0 0 0 T 0 0 0 0 0 F 0 0 F T T 1
+1 T 0 0 0 0 0 0 0 0 0 0 0 T 0 0 F T T 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+why do you play me? All I am is just a *glitches*gmporar. That wants to destroy you.

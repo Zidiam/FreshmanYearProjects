@@ -1,0 +1,17 @@
+20 15 5 9
+E 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 1 T 0 0 0 0 0 0 0 0 0 0 0 0 0 0 T 1
+0 F F 1 1 0 0 0 0 F 0 0 T 0 F 0 0 F 0 1
+1 1 0 0 0 0 0 F 0 0 0 0 F 0 0 0 0 0 0 1
+T 1 0 0 0 0 0 0 0 T 0 0 0 0 0 0 0 0 0 1
+T 1 F 0 1 1 1 1 1 1 1 1 1 0 0 0 0 F 0 1
+T 1 0 F 1 0 T F F F 0 0 0 F 1 1 1 0 F 1
+T 1 T T 1 0 T F F F 0 0 0 0 1 0 0 0 0 0
+F 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+0 0 0 F F 0 T 0 0 0 0 0 0 0 F F 0 0 F F
+0 F 0 0 1 0 1 1 1 1 1 1 1 1 1 0 0 F T T
+T 0 0 F 1 0 1 T T T F T T T 1 T 0 F T T
+0 0 0 0 1 0 1 F F F F F F F 1 1 1 1 1 1
+F F F F 1 0 F F 0 0 T 0 0 0 0 0 0 F T T
+T T T T 1 0 F 0 0 0 0 0 0 0 0 0 0 F T T
+ I have simply trapped you into a game so you will be stuck forever!

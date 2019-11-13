@@ -1,0 +1,17 @@
+20 15 0 13
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 F F F F F F F F F F F F F F F F F F E
+1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 F F F F T T T T T F F F F F F F F F 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+1 F F F F T T T T T F F F F F F F F F 1
+1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 F F F F T T T T T F F F F F F F F F 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+1 F F F F T T T T T F F F T T T T T T 1
+1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 F F F F T T T T T F F F F F F F F F 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+0 F F F F T T T T T F F F F F F F F F 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+Well see what you made me do!!! I made an impossible level! You will never beat me!

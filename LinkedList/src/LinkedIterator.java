@@ -4,20 +4,22 @@
  * CSC - 121
  * 3/26/2019
  */
+import java.util.ArrayList;
 import java.util.Iterator;
 public class LinkedIterator<T> implements Iterator<T>{
 	
-	private int counter;
+	private int size, counter;
 	private LinearNode<T> current;
 	
 	public LinkedIterator(LinearNode<T> coll, int size) {
 		current = coll;
-		counter = size;
+		this.size = size;
+		counter = 0;
 	}
 	
 	@Override
 	public boolean hasNext() {
-		return current != null;
+		return current != null && counter < size;
 	}
 
 	@Override
@@ -25,13 +27,19 @@ public class LinkedIterator<T> implements Iterator<T>{
 		if(!hasNext())
 			throw new ElementNotFoundException("Linked Iterator List");
 		
+		counter ++;
+
 		T result = current.getElement();
 		current = current.getNext();
 		return result;
 	}
 	
 	public void remove() {
-		throw new UnsupportedOperationException();
+		if(!hasNext())
+			throw new ElementNotFoundException("Linked Iterator List");
+		
+		current = current.getNext();
+		size --;
 	}
 	
 }

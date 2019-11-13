@@ -46,8 +46,14 @@ public class LinkedListTest {
 		
 		Iterator<Integer> it = list.iterator();
 		
+		System.out.println("Before Removal from iterator: " + list);
 		while(it.hasNext()) {
-			System.out.println(it.next());
+			if(it.next() == 32){
+				System.out.println("TEST");
+				it.remove();
+			}
+			else
+				System.out.println(it.next());
 		}
 		
 	}

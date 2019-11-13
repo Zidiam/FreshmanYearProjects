@@ -38,6 +38,8 @@ public class LinkedList<T> implements ListADT<T>, Iterable<T>
 			tail.setNext(temp);
 			tail = tail.getNext();
 		}
+		counter ++;
+		
 	}
 	
 	public void add(int index, T element) {

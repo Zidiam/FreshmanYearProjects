@@ -24,7 +24,7 @@ public class CustomerQueuePanel extends JPanel{
 		setPreferredSize(new Dimension(WIDTH, HEIGHT));
 		setBackground(Color.CYAN);
 		
-		for(int x = 0; x < Jcustomers.length - 1; x++) {
+		for(int x = 0; x < Jcustomers.length; x++) {
 			Jcustomers[x] = new JLabel();
 			Jcustomers[x].setBounds(250, x * 20 + 50, 400, 50);
 			add(Jcustomers[x]);
@@ -93,15 +93,17 @@ public class CustomerQueuePanel extends JPanel{
 	}
 	
 	private void updateList() {
-		System.out.println(customers.size());
-		for(int x = 0; x < customers.size(); x++) {
-			System.out.println(customers.get(x).toString());
-			if(x < Jcustomers.length - 1)
-				Jcustomers[x].setText(customers.get(x).toString());
+		if(customers.size() > 0) {
+			for(int x = 0; x < customers.size(); x++) {
+				if(x < Jcustomers.length)
+					Jcustomers[x].setText(customers.get(x).toString());
+			}
+			
+			if(Jcustomers.length > customers.size())
+				Jcustomers[customers.size()].setText("");
+			if(customers.size() == 1)
+				Jcustomers[0].setText("");
 		}
-		
-		if(Jcustomers.length > customers.size())
-			Jcustomers[customers.size()-1].setText("");
 		
 	}
 	
@@ -126,8 +128,9 @@ public class CustomerQueuePanel extends JPanel{
 			}
 			if(!customers.isEmpty())
 				queue.setText(customers.first().toString());
-			else
+			else {
 				queue.setText("");
+			}
 			
 			updateList();
 		}

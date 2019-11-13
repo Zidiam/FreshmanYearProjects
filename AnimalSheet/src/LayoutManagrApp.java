@@ -1,7 +1,8 @@
 import javax.swing.JFrame;
 
 /*
- * 
+ * LayoutManagrApp.java -- Sheet for animals
+ * Jason Melnik
  */
 public class LayoutManagrApp {
 	public static void main(String[] args) {

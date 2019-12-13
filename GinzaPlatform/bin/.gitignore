@@ -1,15 +1,1 @@
 /PlatForm_Resources/
-/Death.class
-/GinzaCharacter.class
-/GinzaImages.class
-/GinzaMenuScreen$ButtonListener.class
-/GinzaMenuScreen.class
-/GinzaPanel$ButtonListener.class
-/GinzaPanel$ReboundListener.class
-/GinzaPanel.class
-/GinzaPlatform.class
-/GinzaWorld$DirectionListener.class
-/GinzaWorld.class
-/Level$ButtonListener.class
-/Level.class
-/LevelReader.class

@@ -102,7 +102,7 @@ public class GinzaEscapePanel extends JPanel{
 		lootB = new JButton("Loot Box");
 		actualInventoryB = new JButton("Inventory");
 		shopB = new JButton("Shop");
-		secretB = new JButton("test");
+		secretB = new JButton();
 		
 		leftB.setBackground(Color.WHITE);
 		rightB.setBackground(Color.WHITE);
@@ -143,7 +143,7 @@ public class GinzaEscapePanel extends JPanel{
 		actualInventoryB.setBounds(200, 0, 100, 25);
 		shopB.setBounds(300, 0, 100, 25);
 		dungeonL.setBounds(0, 200, 200, 25);
-		secretB.setBounds(698, 508, 100, 100);
+		secretB.setBounds(660, 480, 100, 25);
 		secretB.setOpaque(false);
 		secretB.setContentAreaFilled(false);
 		secretB.setBorderPainted(false);
@@ -186,7 +186,7 @@ public class GinzaEscapePanel extends JPanel{
 		add(pantsProtP);
 		add(shoesProtP);
 		
-		getDungeonMap("src\\Dungeons\\Dungeon" + dungeon + ".txt");
+		getDungeonMap("src\\Dungeons\\Dungeon" + dungeon + ".txt");//edit this when exporting
 		walls();
 		treasure();
 		end();
